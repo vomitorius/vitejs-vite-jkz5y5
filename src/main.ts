@@ -1,5 +1,5 @@
 import './style.css';
-import dfLogo from '/elephant.jpg';
+import dfLogo from '/elephant.png';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
