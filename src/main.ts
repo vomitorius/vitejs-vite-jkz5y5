@@ -1,11 +1,10 @@
 import './style.css';
-//import viteLogo from '/vite.svg';
-//import typescriptLogo from './typescript.svg';
+import dfLogo from '/dflogo.png';
 import { setupCounter } from './counter';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-      
+    <img src="${dfLogo}" alt="Vite logo" />
   </div>
 `;
 
